@@ -1,0 +1,29 @@
+.el-menu-item {
+  color: #5c4a4a !important;
+}
+.el-submenu__title {
+  color: #5c4a4a !important;
+}
+.el-menu-item.is-active {
+  color: #ffffff !important;
+  //background-color: rgb(19, 101, 220) !important;
+  background-color: #6dbcef !important;
+}
+
+.sidebar .sidebar-el-menu > .el-menu--inline {
+  background-color: #20a0ff !important;
+}
+
+.el-menu-item:focus, .el-menu-item:hover {
+  background-color: #6dbcee85;
+  color: #fff !important;
+}
+
+.el-submenu__title:focus, .el-submenu__title:hover {
+  background-color: #6dbcee85;
+  color: #fff !important;
+}
+
+.el-dropdown-menu, .el-menu {
+  background-color: hsla(0,0%,100%,.5);
+}
